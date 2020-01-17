@@ -57,7 +57,7 @@ class Result extends Component {
 
                         onClick={(e)=>
                             this.props.history.push({
-                                pathname: `/pagination/path/${page}`,
+                                pathname: `/path/${page}`,
                                 state: {currentPage : page}
                             })}
 
